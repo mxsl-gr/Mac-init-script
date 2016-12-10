@@ -15,11 +15,11 @@ export NVM_DIR="$HOME/.nvm" >> ~/.zshrc
 echo "install maven git..."
 brew cask maven git
 
-echo "install google-chrome sourcetree docker kitematic..."
-brew cask install google-chrome sourcetree docker kitematic
+echo "install google-chrome sourcetree docker kitematic visual-studio-code..."
+brew cask install google-chrome sourcetree docker kitematic visual-studio-code
 
-echo "install intellij-idea-ce visual-studio-code..."
-brew cask install intellij-idea-ce visual-studio-code
+echo "install intellij-idea-ce..."
+brew install Caskroom/versions/intellij-idea-ce
 
 echo "install qq neteasemusic..."
 brew cask install qq neteasemusic
