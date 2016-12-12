@@ -12,8 +12,8 @@ mkdir ~/.nvm
 echo "export NVM_DIR=\"\$HOME/.nvm\"" >> ~/.zshrc
 echo ". \"/usr/local/opt/nvm/nvm.sh\"" >> ~/.zshrc
 
-echo "install maven git..."
-brew cask maven git
+echo "install maven git nginx..."
+brew cask maven git nginx
 
 echo "install google-chrome sourcetree sequel-pro shadowsocksx-ng docker kitematic visual-studio-code..."
 brew cask install google-chrome sourcetree sequel-pro shadowsocksx-ng docker kitematic visual-studio-code
