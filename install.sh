@@ -15,8 +15,8 @@ export NVM_DIR="$HOME/.nvm" >> ~/.zshrc
 echo "install maven git..."
 brew cask maven git
 
-echo "install google-chrome sourcetree shadowsocksx-ng docker kitematic visual-studio-code..."
-brew cask install google-chrome sourcetree shadowsocksx-ng docker kitematic visual-studio-code
+echo "install google-chrome sourcetree sequel-pro shadowsocksx-ng docker kitematic visual-studio-code..."
+brew cask install google-chrome sourcetree sequel-pro shadowsocksx-ng docker kitematic visual-studio-code
 
 echo "install intellij-idea-ce..."
 brew install Caskroom/versions/intellij-idea-ce
