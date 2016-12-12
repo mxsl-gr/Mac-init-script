@@ -9,7 +9,7 @@ brew cask install java go nvm
 
 # set nvm
 mkdir ~/.nvm
-echo "export NVM_DIR=\"$HOME/.nvm\"" >> ~/.zshrc
+echo "export NVM_DIR=\"\$HOME/.nvm\"" >> ~/.zshrc
 echo ". \"/usr/local/opt/nvm/nvm.sh\"" >> ~/.zshrc
 
 echo "install maven git..."
