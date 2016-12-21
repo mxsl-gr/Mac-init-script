@@ -7,7 +7,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 echo "install java go nvm..."
 brew cask install java go nvm
 
-# set gol
+# set go
 mkdir ~/.go
 echo "export GOPATH=\"\$HOME/.go\"" >> ~/.zshrc
 
