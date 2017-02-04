@@ -10,6 +10,7 @@ brew cask install java go nvm
 # set go
 mkdir ~/.go
 echo "export GOPATH=\"\$HOME/.go\"" >> ~/.zshrc
+echo "export GOBIN=\"\$HOME/.go/bin\"" >> ~/.zshrc
 
 # set nvm
 mkdir ~/.nvm
