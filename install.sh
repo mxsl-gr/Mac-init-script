@@ -16,6 +16,7 @@ echo "export GOBIN=\"\$HOME/.go/bin\"" >> ~/.zshrc
 mkdir ~/.nvm
 echo "export NVM_DIR=\"\$HOME/.nvm\"" >> ~/.zshrc
 echo ". \"/usr/local/opt/nvm/nvm.sh\"" >> ~/.zshrc
+echo "nvm use default" >> ~/.zshrc
 
 echo "install maven git nginx..."
 brew install maven git nginx
