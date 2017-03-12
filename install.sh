@@ -4,8 +4,14 @@ echo "install homebrew..."
 echo "install oh-my-zsh..."
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-echo "install java go nvm..."
-brew cask install java go nvm
+echo "install java go node..."
+brew cask install java node
+
+echo "install maven git nginx go..."
+brew install maven git nginx go
+
+echo "install go..."
+brew install go
 
 # set go
 mkdir ~/development/golang
@@ -13,14 +19,13 @@ echo "export GOPATH=\"\$HOME/development/golang\"" >> ~/.zshrc
 echo "export GOBIN=\"\$GOPATH/bin\"" >> ~/.zshrc
 echo "export PATH=\"\$PATH:\$GOPATH/bin\"" >> ~/.zshrc
 
-# set nvm
-mkdir ~/.nvm
-echo "export NVM_DIR=\"\$HOME/.nvm\"" >> ~/.zshrc
-echo ". \"/usr/local/opt/nvm/nvm.sh\"" >> ~/.zshrc
-echo "nvm use default" >> ~/.zshrc
+#echo "install nvm..."
+#brew install nvm
 
-echo "install maven git nginx..."
-brew install maven git nginx
+# set nvm
+#mkdir ~/.nvm
+#echo "export NVM_DIR=\"\$HOME/.nvm\"" >> ~/.zshrc
+#echo ". \"/usr/local/opt/nvm/nvm.sh\"" >> ~/.zshrc
 
 echo "install google-chrome sourcetree sequel-pro shadowsocksx-ng docker kitematic visual-studio-code..."
 brew cask install google-chrome sourcetree sequel-pro shadowsocksx-ng docker kitematic visual-studio-code
