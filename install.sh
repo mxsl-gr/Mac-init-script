@@ -22,11 +22,6 @@ echo "export PATH=\"\$PATH:\$GOPATH/bin\"" >> ~/.zshrc
 #echo "install nvm..."
 #brew install nvm
 
-# set nvm
-#mkdir ~/.nvm
-#echo "export NVM_DIR=\"\$HOME/.nvm\"" >> ~/.zshrc
-#echo ". \"/usr/local/opt/nvm/nvm.sh\"" >> ~/.zshrc
-
 echo "install google-chrome sourcetree sequel-pro shadowsocksx-ng docker kitematic visual-studio-code..."
 brew cask install google-chrome sourcetree sequel-pro shadowsocksx-ng docker kitematic visual-studio-code
 
