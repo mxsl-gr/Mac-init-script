@@ -14,7 +14,7 @@ echo "install iterm2 google-chrome sourcetree sequel-pro shadowsocksx-ng docker.
 brew cask install iterm2 google-chrome sourcetree sequel-pro shadowsocksx-ng docker
 
 echo "install visual-studio-code intellij-idea-ce..."
-brew install visual-studio-code intellij-idea-ce
+brew cask install visual-studio-code intellij-idea-ce
 
 echo "install qq dingtalk neteasemusic sogouinput..."
 brew cask install qq dingtalk neteasemusic sogouinput
