@@ -1,9 +1,6 @@
 echo "install homebrew..."
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-echo "install oh-my-zsh..."
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 echo "install java..."
 brew cask install java 
 
@@ -30,3 +27,6 @@ brew cask install qq dingtalk neteasemusic sogouinput
 
 echo "install axure-rp..."
 brew cask install axure-rp
+
+echo "install oh-my-zsh..."
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
