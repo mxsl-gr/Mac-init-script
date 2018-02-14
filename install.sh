@@ -7,12 +7,6 @@ brew cask install java
 echo "install node go..."
 brew install node go
 
-# set go
-mkdir ~/development/golang
-echo "export GOPATH=\"\$HOME/development/golang\"" >> ~/.zshrc
-echo "export GOBIN=\"\$GOPATH/bin\"" >> ~/.zshrc
-echo "export PATH=\"\$PATH:\$GOPATH/bin\"" >> ~/.zshrc
-
 echo "install maven git nginx..."
 brew install maven git nginx
 
@@ -30,3 +24,9 @@ brew cask install axure-rp
 
 echo "install oh-my-zsh..."
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# set go
+mkdir ~/development/golang
+echo "export GOPATH=\"\$HOME/development/golang\"" >> ~/.zshrc
+echo "export GOBIN=\"\$GOPATH/bin\"" >> ~/.zshrc
+echo "export PATH=\"\$PATH:\$GOPATH/bin\"" >> ~/.zshrc
