@@ -26,7 +26,7 @@ echo "install oh-my-zsh..."
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # set go
-mkdir ~/development/golang
+mkdir -p ~/development/golang
 echo "export GOPATH=\"\$HOME/development/golang\"" >> ~/.zshrc
 echo "export GOBIN=\"\$GOPATH/bin\"" >> ~/.zshrc
 echo "export PATH=\"\$PATH:\$GOPATH/bin\"" >> ~/.zshrc
